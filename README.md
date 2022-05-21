@@ -37,23 +37,23 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
 For this portfolio to work properly, you'll need to install and load the following packages: <br>
-tidyverse
-ggplot2
-readxl
-here
-timetk
-fs
-ape
-dplyr
-gplots
-lme4
-phangorn
-plotly
-tidyr
-vegan
-VennDiagram
-rJava (install Java from: https://www.java.com/en/download/manual.jsp and Java JDK from: https://www.oracle.com/java/technologies/downloads/#jdk18-windows )
-phyloseq
-dslabs
-DBI
-RPostgres
+tidyverse <br>
+ggplot2 <br>
+readxl <br>
+here <br>
+timetk <br>
+fs <br>
+ape <br>
+dplyr <br>
+gplots <br>
+lme4 <br>
+phangorn <br>
+plotly <br>
+tidyr <br>
+vegan <br>
+VennDiagram <br>
+rJava (install Java from: https://www.java.com/en/download/manual.jsp and Java JDK from: https://www.oracle.com/java/technologies/downloads/#jdk18-windows ) <br>
+phyloseq <br>
+dslabs <br>
+DBI <br>
+RPostgres <br>
