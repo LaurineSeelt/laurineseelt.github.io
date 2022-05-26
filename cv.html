@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>8 Assignment 7: | Portfolio Laurine Seelt</title>
+  <title>5 CV | Portfolio Laurine Seelt</title>
   <meta name="description" content="This is the bookdown for my DSFB2 portfolio" />
   <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="8 Assignment 7: | Portfolio Laurine Seelt" />
+  <meta property="og:title" content="5 CV | Portfolio Laurine Seelt" />
   <meta property="og:type" content="book" />
   
   <meta property="og:description" content="This is the bookdown for my DSFB2 portfolio" />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="8 Assignment 7: | Portfolio Laurine Seelt" />
+  <meta name="twitter:title" content="5 CV | Portfolio Laurine Seelt" />
   
   <meta name="twitter:description" content="This is the bookdown for my DSFB2 portfolio" />
   
@@ -23,15 +23,15 @@
 <meta name="author" content="Laurine Seelt" />
 
 
-<meta name="date" content="2022-05-09" />
+<meta name="date" content="2022-05-21" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="assignment-6.html"/>
-
+<link rel="prev" href="cleaning-up-according-to-the-guerrilla-analytics-framework.html"/>
+<link rel="next" href="free-space.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -52,6 +52,13 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.10.0/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-2.5.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-2.5.1/plotly-latest.min.js"></script>
 
 
 <style type="text/css">
@@ -133,33 +140,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <ul class="summary">
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
-<li class="chapter" data-level="2" data-path="assignment-1-investigating-a-c.-elegans-plate-experiment.html"><a href="assignment-1-investigating-a-c.-elegans-plate-experiment.html"><i class="fa fa-check"></i><b>2</b> Assignment 1: Investigating a <em>C. Elegans</em> plate experiment</a>
+<li class="chapter" data-level="2" data-path="investigating-a-c.-elegans-plate-experiment.html"><a href="investigating-a-c.-elegans-plate-experiment.html"><i class="fa fa-check"></i><b>2</b> Investigating a <em>C. Elegans</em> plate experiment</a></li>
+<li class="chapter" data-level="3" data-path="reading-two-different-studies-and-recreating-some-of-the-code.html"><a href="reading-two-different-studies-and-recreating-some-of-the-code.html"><i class="fa fa-check"></i><b>3</b> Reading two different studies and recreating some of the code</a>
 <ul>
-<li class="chapter" data-level="2.0.1" data-path="assignment-1-investigating-a-c.-elegans-plate-experiment.html"><a href="assignment-1-investigating-a-c.-elegans-plate-experiment.html#a"><i class="fa fa-check"></i><b>2.0.1</b> A</a></li>
-<li class="chapter" data-level="2.0.2" data-path="assignment-1-investigating-a-c.-elegans-plate-experiment.html"><a href="assignment-1-investigating-a-c.-elegans-plate-experiment.html#b"><i class="fa fa-check"></i><b>2.0.2</b> B</a></li>
-<li class="chapter" data-level="2.0.3" data-path="assignment-1-investigating-a-c.-elegans-plate-experiment.html"><a href="assignment-1-investigating-a-c.-elegans-plate-experiment.html#c"><i class="fa fa-check"></i><b>2.0.3</b> C</a></li>
-<li class="chapter" data-level="2.0.4" data-path="assignment-1-investigating-a-c.-elegans-plate-experiment.html"><a href="assignment-1-investigating-a-c.-elegans-plate-experiment.html#d"><i class="fa fa-check"></i><b>2.0.4</b> D</a></li>
-<li class="chapter" data-level="2.0.5" data-path="assignment-1-investigating-a-c.-elegans-plate-experiment.html"><a href="assignment-1-investigating-a-c.-elegans-plate-experiment.html#e"><i class="fa fa-check"></i><b>2.0.5</b> E</a></li>
-<li class="chapter" data-level="2.0.6" data-path="assignment-1-investigating-a-c.-elegans-plate-experiment.html"><a href="assignment-1-investigating-a-c.-elegans-plate-experiment.html#f"><i class="fa fa-check"></i><b>2.0.6</b> F</a></li>
-<li class="chapter" data-level="2.0.7" data-path="assignment-1-investigating-a-c.-elegans-plate-experiment.html"><a href="assignment-1-investigating-a-c.-elegans-plate-experiment.html#g"><i class="fa fa-check"></i><b>2.0.7</b> G</a></li>
-<li class="chapter" data-level="2.0.8" data-path="assignment-1-investigating-a-c.-elegans-plate-experiment.html"><a href="assignment-1-investigating-a-c.-elegans-plate-experiment.html#h"><i class="fa fa-check"></i><b>2.0.8</b> H</a></li>
-<li class="chapter" data-level="2.0.9" data-path="assignment-1-investigating-a-c.-elegans-plate-experiment.html"><a href="assignment-1-investigating-a-c.-elegans-plate-experiment.html#i"><i class="fa fa-check"></i><b>2.0.9</b> I</a></li>
-<li class="chapter" data-level="2.0.10" data-path="assignment-1-investigating-a-c.-elegans-plate-experiment.html"><a href="assignment-1-investigating-a-c.-elegans-plate-experiment.html#j"><i class="fa fa-check"></i><b>2.0.10</b> J</a></li>
-<li class="chapter" data-level="2.0.11" data-path="assignment-1-investigating-a-c.-elegans-plate-experiment.html"><a href="assignment-1-investigating-a-c.-elegans-plate-experiment.html#k"><i class="fa fa-check"></i><b>2.0.11</b> K</a></li>
+<li class="chapter" data-level="3.1" data-path="reading-two-different-studies-and-recreating-some-of-the-code.html"><a href="reading-two-different-studies-and-recreating-some-of-the-code.html#part-1"><i class="fa fa-check"></i><b>3.1</b> Part 1</a></li>
+<li class="chapter" data-level="3.2" data-path="reading-two-different-studies-and-recreating-some-of-the-code.html"><a href="reading-two-different-studies-and-recreating-some-of-the-code.html#part-2"><i class="fa fa-check"></i><b>3.2</b> Part 2</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="assignment-2-reading-two-different-studies-and-recreating-some-of-the-code.html"><a href="assignment-2-reading-two-different-studies-and-recreating-some-of-the-code.html"><i class="fa fa-check"></i><b>3</b> Assignment 2: Reading two different studies and recreating some of the code</a>
+<li class="chapter" data-level="4" data-path="cleaning-up-according-to-the-guerrilla-analytics-framework.html"><a href="cleaning-up-according-to-the-guerrilla-analytics-framework.html"><i class="fa fa-check"></i><b>4</b> Cleaning up according to the Guerrilla analytics framework</a></li>
+<li class="chapter" data-level="5" data-path="cv.html"><a href="cv.html"><i class="fa fa-check"></i><b>5</b> CV</a></li>
+<li class="chapter" data-level="6" data-path="free-space.html"><a href="free-space.html"><i class="fa fa-check"></i><b>6</b> Free space</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="assignment-2-reading-two-different-studies-and-recreating-some-of-the-code.html"><a href="assignment-2-reading-two-different-studies-and-recreating-some-of-the-code.html#part-1"><i class="fa fa-check"></i><b>3.1</b> Part 1</a></li>
-<li class="chapter" data-level="3.2" data-path="assignment-2-reading-two-different-studies-and-recreating-some-of-the-code.html"><a href="assignment-2-reading-two-different-studies-and-recreating-some-of-the-code.html#part-2"><i class="fa fa-check"></i><b>3.2</b> Part 2</a></li>
+<li class="chapter" data-level="6.1" data-path="free-space.html"><a href="free-space.html#course-microbiota-analysis-in-r"><i class="fa fa-check"></i><b>6.1</b> Course: Microbiota analysis in R</a></li>
+<li class="chapter" data-level="6.2" data-path="free-space.html"><a href="free-space.html#looking-at-the-alpha-diversity"><i class="fa fa-check"></i><b>6.2</b> Looking at the alpha diversity</a></li>
+<li class="chapter" data-level="6.3" data-path="free-space.html"><a href="free-space.html#looking-at-the-beta-diversity"><i class="fa fa-check"></i><b>6.3</b> Looking at the beta diversity</a></li>
+<li class="chapter" data-level="6.4" data-path="free-space.html"><a href="free-space.html#otus-that-differ-by"><i class="fa fa-check"></i><b>6.4</b> OTU’s that differ by</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="assignment-3-cleaning-up-according-to-the-guerrilla-analytics-framework.html"><a href="assignment-3-cleaning-up-according-to-the-guerrilla-analytics-framework.html"><i class="fa fa-check"></i><b>4</b> Assignment 3: Cleaning up according to the Guerrilla analytics framework</a></li>
-<li class="chapter" data-level="5" data-path="assignment-4-cv.html"><a href="assignment-4-cv.html"><i class="fa fa-check"></i><b>5</b> Assignment 4: CV</a></li>
-<li class="chapter" data-level="6" data-path="assignment-5-free-space.html"><a href="assignment-5-free-space.html"><i class="fa fa-check"></i><b>6</b> Assignment 5: Free space</a>
-<ul>
-<li class="chapter" data-level="6.1" data-path="assignment-5-free-space.html"><a href="assignment-5-free-space.html#course-introduction-to-the-statistical-analysis-of-microbiome-data-in-r"><i class="fa fa-check"></i><b>6.1</b> Course: Introduction to the statistical analysis of microbiome data in R</a></li>
-</ul></li>
-<li class="chapter" data-level="7" data-path="assignment-6.html"><a href="assignment-6.html"><i class="fa fa-check"></i><b>7</b> Assignment 6:</a></li>
-<li class="chapter" data-level="8" data-path="assignment-7.html"><a href="assignment-7.html"><i class="fa fa-check"></i><b>8</b> Assignment 7:</a></li>
+<li class="chapter" data-level="7" data-path="using-github-and-zotero.html"><a href="using-github-and-zotero.html"><i class="fa fa-check"></i><b>7</b> Using GitHub and Zotero</a></li>
+<li class="chapter" data-level="8" data-path="making-a-website-on-github.html"><a href="making-a-website-on-github.html"><i class="fa fa-check"></i><b>8</b> Making a website on GitHub</a></li>
+<li class="chapter" data-level="9" data-path="working-with-dbeaver-and-sql.html"><a href="working-with-dbeaver-and-sql.html"><i class="fa fa-check"></i><b>9</b> Working with DBeaver and SQL</a></li>
+<li class="chapter" data-level="10" data-path="creating-a-package.html"><a href="creating-a-package.html"><i class="fa fa-check"></i><b>10</b> Creating a package</a></li>
 </ul>
 
       </nav>
@@ -177,9 +176,47 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="assignment-7" class="section level1 hasAnchor" number="8">
-<h1><span class="header-section-number">8</span> Assignment 7:<a href="assignment-7.html#assignment-7" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>This was the seventh assignment for our portfolio. We had to copy all our HTML’s to a new repository and make it into pretty website.</p>
+<div id="cv" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">5</span> CV<a href="cv.html#cv" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This was the fourth assignment for our portfolio. We had to put our CV in a markdown. <br>
+<br>
+<strong>Persoonlijke informatie</strong></p>
+<hr />
+<p>Naam: Laurine Seelt <br>
+Geboortedatum: 25-02-2000 <br>
+Emailadres: - <br>
+Telefoonnummer: - <br>
+Adres: - <br>
+Postcode: - <br>
+Woonplaats: - <br>
+<br>
+<br>
+<strong>Opleiding</strong></p>
+<hr />
+<p>2019 - heden
+Bachelor Life Sciences, Hogeschool Utrecht.</p>
+<p>2012 - 2018
+VWO, Erfgooiers College te Huizen.
+<br>
+<br>
+<br>
+<strong>Ervaring/skills</strong></p>
+<hr />
+<p>(q)PCR
+Western Blot <br>
+ELISA <br>
+MALDI-TOF <br>
+VITEK2 <br>
+Bash <br>
+R <br>
+SQL <br>
+<br>
+<br>
+<strong>Talen</strong></p>
+<hr />
+<p>Nederlands, moedertaal. <br>
+Engels, vloeiend. <br>
+Frans, basis.</p>
 
 </div>
             </section>
@@ -187,8 +224,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="assignment-6.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="cleaning-up-according-to-the-guerrilla-analytics-framework.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="free-space.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
