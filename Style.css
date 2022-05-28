@@ -11,8 +11,8 @@ p {
   color: black;
 }
 div {
-  background-color: pink;
-  color: black;
-  border: 3px solid #6600ff;
+  background-color: black;
+  color: lightblue;
+  border: 3px solid #66ff33;
   padding: 5px;
 }
