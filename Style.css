@@ -2,17 +2,15 @@ body {
   background-color: white;
 }
 h1 {
-  color: black;
+  color: white;
 }
 h2 {
-  color: black;
+  color: white;
 }
 p {
-  color: black;
+  color: white;
 }
 div {
   background-color: black;
-  color: lightblue;
-  border: 3px solid #66ff33;
   padding: 5px;
 }
