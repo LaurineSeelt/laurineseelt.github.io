@@ -17,6 +17,8 @@ p {
 div {
   background-color: white;
   padding: 5px;
+  width: 300px;
+  margin: auto;
 }
 
 .header {
@@ -50,9 +52,9 @@ li a {
 }
 
 li a:hover{
-  background-color: #111;
+  background-color: #cc0000;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #00ccff;
 }
