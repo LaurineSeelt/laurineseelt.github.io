@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+  background-color: white;
 }
 
 h1 {
@@ -32,8 +32,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  position: -webkit-sticky;
+  background-color: #33cccc;
+  position: sticky;
   top: 0;
   width: 100%;
 }
