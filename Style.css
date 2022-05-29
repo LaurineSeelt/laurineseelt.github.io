@@ -2,10 +2,10 @@ body {
   background-color: white;
 }
 h1 {
-  color: pink;
+  color: olive;
 }
 h2 {
-  color: purple;
+  color: navy;
 }
 p {
   color: black;
@@ -15,5 +15,9 @@ div {
   padding: 5px;
 }
 .header {
-  
+  padding: 40px;
+  text-align: center;
+  background: #0000ff;
+  margin: 30px;
+  font-size: 20px;
 }
