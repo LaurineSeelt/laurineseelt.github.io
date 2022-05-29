@@ -15,9 +15,8 @@ div {
   padding: 5px;
 }
 .header {
-  padding: 40px;
+  background-color: gray;
   text-align: center;
-  background: #0000ff;
-  margin: 30px;
-  font-size: 20px;
+  border: 2px solid white;
+  color: white;
 }
