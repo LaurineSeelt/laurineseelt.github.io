@@ -26,17 +26,28 @@ div {
   color: white;
 }
 
-.topnav {
+.navbar {
   overflow: hidden;
   background-color: lime;
-  border: 1px solid white;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.topnav a {
+.navbar a {
   float: left;
   display: block;
   color: pink;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.navbar a:hover{
+  background: #0f0f0f;
+  color: blue;
+}
+
+.main {
+  margin-top: 30px;
 }
