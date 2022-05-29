@@ -2,15 +2,18 @@ body {
   background-color: white;
 }
 h1 {
-  color: white;
+  color: pink;
 }
 h2 {
-  color: white;
+  color: purple;
 }
 p {
-  color: white;
+  color: black;
 }
 div {
-  background-color: black;
+  background-color: white;
   padding: 5px;
+}
+.header {
+  
 }
