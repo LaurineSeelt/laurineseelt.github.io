@@ -1,22 +1,42 @@
 body {
   background-color: white;
 }
+
 h1 {
   color: olive;
 }
+
 h2 {
-  color: navy;
+  color: olive;
 }
+
 p {
-  color: white;
+  color: black;
 }
+
 div {
   background-color: white;
   padding: 5px;
 }
+
 .header {
   background-color: gray;
   text-align: center;
   border: 2px solid white;
   color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: lime;
+  border: 1px solid white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
