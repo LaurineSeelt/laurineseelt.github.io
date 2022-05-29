@@ -26,28 +26,33 @@ div {
   color: white;
 }
 
-.navbar {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
-  background-color: lime;
+  background-color: #333;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.navbar a {
+li {
   float: left;
+}
+
+li a {
   display: block;
-  color: pink;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.navbar a:hover{
-  background: #0f0f0f;
-  color: blue;
+li a:hover{
+  background-color: #111;
 }
 
-.main {
-  margin-top: 30px;
+.active {
+  background-color: #04AA6D;
 }
