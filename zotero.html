@@ -5,7 +5,7 @@
 <meta charset="utf-8" />
 <meta name="generator" content="pandoc" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="Using GitHub and Zotero | Portfolio Laurine Seelt" />
+<meta property="og:title" content="Zotero | Portfolio Laurine Seelt" />
 <meta property="og:type" content="book" />
 
 <meta property="og:description" content="This is the bookdown for my DSFB2 portfolio" />
@@ -13,12 +13,12 @@
 
 <meta name="author" content="Laurine Seelt" />
 
-<meta name="date" content="2022-05-28" />
+<meta name="date" content="2022-06-11" />
 
 
 <meta name="description" content="This is the bookdown for my DSFB2 portfolio">
 
-<title>Using GitHub and Zotero | Portfolio Laurine Seelt</title>
+<title>Zotero | Portfolio Laurine Seelt</title>
 
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -117,7 +117,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   }
 </style>
 
-<link rel="stylesheet" href="Style.css" type="text/css" />
+
 
 
 <style type = "text/css">
@@ -153,51 +153,53 @@ details > summary {
 <div id="TOC">
 <ul>
 <li><a href="index.html#introduction">Introduction</a></li>
-<li><a href="investigating-a-c.-elegans-plate-experiment.html#investigating-a-c.-elegans-plate-experiment">Investigating a <em>C. Elegans</em> plate experiment</a></li>
-<li class="has-sub"><a href="reading-two-different-studies-and-recreating-some-of-the-code.html#reading-two-different-studies-and-recreating-some-of-the-code">Reading two different studies and recreating some of the code</a>
-<ul>
-<li><a href="part-1.html#part-1">Part 1</a></li>
-<li><a href="part-2.html#part-2">Part 2</a></li>
-</ul></li>
-<li><a href="cleaning-up-according-to-the-guerrilla-analytics-framework.html#cleaning-up-according-to-the-guerrilla-analytics-framework">Cleaning up according to the Guerrilla analytics framework</a></li>
+<li><a href="data-wrangling.html#data-wrangling">Data wrangling</a></li>
+<li><a href="reproducing-code.html#reproducing-code">Reproducing code</a></li>
+<li><a href="cleaning-up.html#cleaning-up">Cleaning up</a></li>
 <li><a href="cv.html#cv">CV</a></li>
-<li class="has-sub"><a href="free-space.html#free-space">Free space</a>
-<ul>
-<li><a href="course-microbiota-analysis-in-r.html#course-microbiota-analysis-in-r">Course: Microbiota analysis in R</a></li>
-<li><a href="looking-at-the-alpha-diversity.html#looking-at-the-alpha-diversity">Looking at the alpha diversity</a></li>
-<li><a href="looking-at-the-beta-diversity.html#looking-at-the-beta-diversity">Looking at the beta diversity</a></li>
-<li><a href="otus-that-differ-by.html#otus-that-differ-by">OTU’s that differ by</a></li>
-</ul></li>
-<li><a href="using-github-and-zotero.html#using-github-and-zotero">Using GitHub and Zotero</a></li>
-<li><a href="making-a-website-on-github.html#making-a-website-on-github">Making a website on GitHub</a></li>
-<li><a href="working-with-dbeaver-and-sql.html#working-with-dbeaver-and-sql">Working with DBeaver and SQL</a></li>
-<li><a href="creating-a-package.html#creating-a-package">Creating a package</a></li>
-<li><a href="making-a-parameterized-markdown.html#making-a-parameterized-markdown">Making a parameterized markdown</a></li>
+<li><a href="free-space.html#free-space">Free space</a></li>
+<li><a href="zotero.html#zotero">Zotero</a></li>
+<li><a href="github.html#github">GitHub</a></li>
+<li><a href="sql.html#sql">SQL</a></li>
+<li><a href="package.html#package">Package</a></li>
+<li><a href="parameterization.html#parameterization">Parameterization</a></li>
 </ul>
 </div>
 </div>
 </div>
 <div class="row">
 <div class="col-sm-12">
-<div id="using-github-and-zotero" class="section level1">
-<h1>Using GitHub and Zotero</h1>
-<p>This was the sixth assignment for our portfolio.</p>
-<p><strong>Introduction to our project.</strong> <br>
-For our DSFB2 project, we are going to build a Shiny app to enable zoology students to analyse tracings from a Langendorff assay automatically, as opposed to doing it by hand. <br>
-The zoology students are investigating the effects of different kinds of snake venom on heart muscle. To do this, they’re using a Langendorff assay. This technique was developed by Oskar Langendorff in the nineteenth century. In the procedure, the excised heart has a cannula inserted into the aorta so that the heart can be retrogradely perfused via the coronary artery. [<span class="citation">@WatanabeOkada2018</span>]<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
-<p>This technique can be used to study the direct effects of, for example, medication on the heart <em>ex vivo</em>. The two most important parameters that can be tracked in this assay are heart rate and contraction force. <br>
-We will write code to enable the zoology students to analyse these two parameters quickly and thoroughly.</p>
+<div id="zotero" class="section level1">
+<h1>Zotero</h1>
+<p>To show that I know how to use Zotero and citation in general correctly,
+I wrote an introduction to the Data Science project I did with two
+classmates and included some citations using Zotero.
+<br>
+<strong>Introduction to our project.</strong> <br>
+For the DSFB2 project, I am going to build a Shiny app together with two of my classmates. This app will enable zoology students to analyse tracings from a Langendorff assay automatically, as opposed to doing it by hand. <br> The zoology students are investigating the effects of different kinds of snake venom on heart muscle. The inspiration for this research came from an accident that happend to one of the Life Sciences students in a jungle in Thailand. A cobra spit venom into his eye, and after his recovery he started wondering about the effect of snake venom on muscle cells. More specifically, he wondered if there was any enzymatic activity in snake venom and what effect possible enzymes in this venom have on muscle cells.
+<br>
+Then, Ronald Vlasblom started wondering about the effect of snake venom on <em>heart</em> muscle cells. Often, snake venom causes paralysis, which means it has an effect on ‘normal’ muscle cells, but it isn’t really clear/known if it has an effect on heart muscle cells.
+<br>
+<br>
+To conduct this research, the Zoology students are using a Langendorff assay. This technique was developed by Oskar Langendorff in the nineteenth century. In the procedure, the excised heart has a cannula inserted into the aorta so that the heart can be retrogradely perfused via the coronary artery. <span class="citation">[@lateefLangendorffIsolatedPerfused2015]</span> The Langendorff isolated perfused heart has allowed many fundamental discoveries in cardiac physiology, pathology, and pharmacology over the past 100 years and is still one of the most powerful experimental designs in cardiovascular research and cardiovascular pharmacology. <span class="citation">[@motayagheniModifiedLangendorffTechnique2017]</span>
+<br>
+This technique can be used to study the direct effects of, for example, medication on the
+heart <em>ex vivo</em>. The two most important parameters that can be tracked in this assay are heart rate and contraction force.
+<br>
+<br>
+We will write code to enable the zoology students to analyse these two parameters quickly and thoroughly.
+<br>
+In our app, we will have five graphs. <br>
+The first graph will be the raw data of the Langendorff assay. <br>
+The second graph will be the amount of peaks detected, separated into three timeframes: the control period, the effect period and the repair period. <br>
+The third graph will be the amount of peaks in the effect period and repair period, normalized for the average amount of peaks in the control period. <br>
+The fourth graph will be the beats per minute, also separated into the control period, effect period and repair period. <br>
+The fifth graph will be the beats per minute in the effect period and repair period, normalized for the average beats per minute in the control period. <br></p>
 
 </div>
-<div class="footnotes">
-<hr />
-<ol start="1">
-<li id="fn1"><p>Link to the study: <a href="https://link.springer.com/protocol/10.1007/978-1-4939-8597-5_8#citeas" class="uri">https://link.springer.com/protocol/10.1007/978-1-4939-8597-5_8#citeas</a><a href="using-github-and-zotero.html#fnref1" class="footnote-back">↩︎</a></p></li>
-</ol>
-</div>
 <p style="text-align: center;">
-<a href="otus-that-differ-by.html"><button class="btn btn-default">Previous</button></a>
-<a href="making-a-website-on-github.html"><button class="btn btn-default">Next</button></a>
+<a href="free-space.html"><button class="btn btn-default">Previous</button></a>
+<a href="github.html"><button class="btn btn-default">Next</button></a>
 </p>
 </div>
 </div>
