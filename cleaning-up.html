@@ -8,15 +8,15 @@
 <meta property="og:title" content="Cleaning up | Portfolio Laurine Seelt" />
 <meta property="og:type" content="book" />
 
-<meta property="og:description" content="This is the bookdown for my DSFB2 portfolio" />
+
 
 
 <meta name="author" content="Laurine Seelt" />
 
-<meta name="date" content="2022-06-11" />
+<meta name="date" content="2022-06-19" />
 
 
-<meta name="description" content="This is the bookdown for my DSFB2 portfolio">
+<meta name="description" content="Cleaning up | Portfolio Laurine Seelt">
 
 <title>Cleaning up | Portfolio Laurine Seelt</title>
 
@@ -117,7 +117,29 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   }
 </style>
 
-<link rel="stylesheet" href="Style.css" type="text/css" />
+
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 
 <style type = "text/css">
@@ -152,17 +174,20 @@ details > summary {
 <div class="col-sm-12">
 <div id="TOC">
 <ul>
-<li><a href="index.html#introduction">Introduction</a></li>
-<li><a href="data-wrangling.html#data-wrangling">Data wrangling</a></li>
-<li><a href="reproducing-code.html#reproducing-code">Reproducing code</a></li>
-<li><a href="cleaning-up.html#cleaning-up">Cleaning up</a></li>
-<li><a href="cv.html#cv">CV</a></li>
-<li><a href="free-space.html#free-space">Free space</a></li>
-<li><a href="zotero.html#zotero">Zotero</a></li>
-<li><a href="github.html#github">GitHub</a></li>
-<li><a href="sql.html#sql">SQL</a></li>
-<li><a href="package.html#package">Package</a></li>
-<li><a href="parameterization.html#parameterization">Parameterization</a></li>
+<li><a href="index.html#introduction" id="toc-introduction">Introduction</a></li>
+<li><a href="data-wrangling.html#data-wrangling" id="toc-data-wrangling">Data wrangling</a></li>
+<li><a href="reproducing-code.html#reproducing-code" id="toc-reproducing-code">Reproducing code</a></li>
+<li><a href="cleaning-up.html#cleaning-up" id="toc-cleaning-up">Cleaning up</a></li>
+<li><a href="cv.html#cv" id="toc-cv">CV</a></li>
+<li><a href="free-space.html#free-space" id="toc-free-space">Free space</a></li>
+<li><a href="zotero.html#zotero" id="toc-zotero">Zotero</a></li>
+<li><a href="github.html#github" id="toc-github">GitHub</a></li>
+<li><a href="sql.html#sql" id="toc-sql">SQL</a></li>
+<li><a href="package.html#package" id="toc-package">Package</a></li>
+<li><a href="ireland_params.html#ireland_params" id="toc-ireland_params">ireland_params</a></li>
+<li><a href="belgium_params.html#belgium_params" id="toc-belgium_params">belgium_params</a></li>
+<li><a href="austria_params.html#austria_params" id="toc-austria_params">austria_params</a></li>
+<li><a href="bibliography.html#bibliography" id="toc-bibliography">Bibliography</a></li>
 </ul>
 </div>
 </div>
@@ -175,7 +200,7 @@ details > summary {
 <br>
 I decided to: <br>
 1. Make a folder called “Rmd” in which I keep all of my markdowns. <br>
-2. Make a folder called “Data” in which I store all the data I’ve used. This folder is split in “Metagenomics” and “RNA_seq”, to separate the two analyses I’ve conducted during Daur2. Both those folders contain the sub folder “Data_raw”, which is data I cannot touch. This is the raw data I received from teachers or downloaded from the internet. <br>
+2. Make a folder called “Data” in which I store all the data I’ve used. This folder is split in “Metagenomics” and “RNA_seq”, to separate the two analyses I’ve conducted during Daur2. Both those folders contain the sub folder “Data_raw”, which is data I cannot touch. This is the raw data I received from teachers or downloaded from the internet. For Metagenomics, I made two extra folders called “Mock1” and “Mock2”, to separate the two data sets I investigated. <br>
 3. Make a folder called “R”. In this folder, I store functions I’ve written. <br>
 4. Make a folder called “Code”. This folder contains the scripts I’ve written, except my Rmarkdowns.
 <br></p>
@@ -185,6 +210,8 @@ I decided to: <br>
 ## ├── Data
 ## │   ├── Metagenomics
 ## │   │   ├── Data_raw
+## │   │   ├── Mock1
+## │   │   ├── Mock2
 ## │   │   └── Supporting
 ## │   └── RNA_seq
 ## │       └── Data_raw
